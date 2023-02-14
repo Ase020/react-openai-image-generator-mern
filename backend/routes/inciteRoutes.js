@@ -13,7 +13,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 router.route("/").get((req, res) => {
-  res.status(200).json({ message: "Hello from Incite AI" });
+  res.status(200).json({ message: "Hello from Incite AI com" });
 });
 
 router.route("/").post(async (req, res) => {
